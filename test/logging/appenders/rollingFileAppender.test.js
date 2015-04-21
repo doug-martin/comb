@@ -180,3 +180,4 @@ it.describe("comb.logging.appenders.RollingFileAppender",function (it) {
 
 }).as(module);
 
+it.run().both(process.exit)

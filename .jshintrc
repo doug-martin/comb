@@ -3,6 +3,10 @@
         "console",
         "require"
     ],
+    "globals": {
+        "Promise": true,
+        "setImmediate": false
+    },
 
     "node": true,
     "browser": true,
@@ -25,8 +29,8 @@
     "quotmark": false,
     "regexp": false,
     "undef": true,
-    "unused": false,
-    "strict": false,
+    "unused": true,
+    "strict": true,
     "trailing": true,
     "white": false,
 
